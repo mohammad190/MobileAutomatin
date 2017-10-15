@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Android test suite on Android Phone">
+
+    <parameter name="OS" value="Android"/>
+    <parameter name="appType" value="Phone"/>
+    <parameter name="deviceType" value="Emulator"/>
+    <parameter name="deviceName" value="pixel_XL"/>
+    <parameter name="version" value="7.1"/>
+    <parameter name="moduleName" value="Ebay"/>
+    <parameter name="appName" value="com.ebay.mobile-3.0.0.19-72-minAPI17.apk"/>
+
+    <test name="Go to Home page" preserve-order="true">
+        <classes>
+            <class name="Test.TestLogin"></class>
+            <!--<class name="Test.TestEbayDeals"></class>-->
+            <!--<class name="Test.Test_Setting_Features"></class>-->
+            <!--<class name="Test.Test_browser_catagory"></class>-->
+            <!--<class name="Test.Test_search"></class>-->
+        </classes>
+    </test>
+</suite>
