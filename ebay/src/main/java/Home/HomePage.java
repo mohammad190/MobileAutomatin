@@ -21,6 +21,9 @@ public class HomePage extends MobileAPI {
     @FindBy(id = "android:id/button2")
     WebElement Click_cross_button;
 
+    //@FindBy(id = "com.ebay.mobile:id/home_my_ebay")
+    //WebElement myEbay;
+
 
     public void SigninPage(String email, String password){
         Click_SignIn.click();
@@ -28,6 +31,7 @@ public class HomePage extends MobileAPI {
         Click_password.sendKeys(password);
         Click_login.click();
         Click_cross_button.click();
+        //myEbay.click();
 
     }
 }

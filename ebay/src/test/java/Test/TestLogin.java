@@ -10,7 +10,6 @@ public class TestLogin extends MobileAPI {
     @Test
     public void SignInFeatures(){
         HomePage page = PageFactory.initElements(ad,HomePage.class);
-        page.SigninPage("abscdre@gmail.com","aasdfg123456");
+        page.SigninPage("sujondpi@yahoo.com","Sujon12");
     }
-
 }

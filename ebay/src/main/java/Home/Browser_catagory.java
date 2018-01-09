@@ -13,7 +13,7 @@ public class Browser_catagory extends MobileAPI {
     WebElement Click_Antiques;
 
     //@FindBy(id = "android:id/text1")
-   // WebElement Click_Art;
+    //WebElement Click_Art;
 
     public void  browserCatagory(){
         Click_Browser_Catagory.click();
